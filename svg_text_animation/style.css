@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 35, 48);
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo path:nth-child(2) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 267;
+    stroke-dashoffset: 267;
+    animation: line-anim 2s ease forwards 0.1s;
+}
+
+#logo path:nth-child(3) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 280;
+    stroke-dashoffset: 280;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+/* chEat sheets */
+#logo path:nth-child(4) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 245;
+    stroke-dashoffset: 245;
+    animation: line-anim 2s ease forwards 0.4s;
+}
+
+/* cheAt sheets */
+#logo path:nth-child(5) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 179;
+    stroke-dashoffset: 179;
+    animation: line-anim 2s ease forwards 0.5s;
+}
+
+/* cheaT sheets */
+#logo path:nth-child(6) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+/* cheat Sheets */
+#logo path:nth-child(7) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 267;
+    stroke-dashoffset: 267;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+/* cheat sHeets */
+#logo path:nth-child(8) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 268;
+    stroke-dashoffset: 268;
+    animation: line-anim 2s ease forwards 0.5s;
+}
+
+/* cheat shEets */
+#logo path:nth-child(9) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 231;
+    stroke-dashoffset: 231;
+    animation: line-anim 2s ease forwards 0.1s;
+}
+
+/* cheat sheEts */
+#logo path:nth-child(10) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 231;
+    stroke-dashoffset: 231;
+    animation: line-anim 2s ease forwards 0.1s;
+}
+
+/* cheat sheeTs */
+#logo path:nth-child(11) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    animation: line-anim 2s ease forwards 0.2s;
+}
+
+/* cheat sheetS */
+#logo path:nth-child(12) {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 254;
+    stroke-dashoffset: 254;
+    animation: line-anim 2s ease forwards 0.1s;
+}
+
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
